@@ -300,3 +300,79 @@ section.servicos{
 .servicos .servicos-container .txt-servico h4 span{
     font-weight: 700;
 }
+
+/* Estilo do rodapé */
+footer{
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+    padding: 20px 0 0 0;
+}
+footer .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .left-footer img{
+    max-width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover{
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 2px var(--primary-color));
+    }
+}
+footer .left-footer p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
+footer .right-footer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+footer .right-footer a{
+    text-decoration: none;
+}
+footer .right-footer a button{
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition: all 0.5s;
+
+    &:hover{
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+    }
+
+}
+
+
+
+footer .copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 120px;
+    background-color: var(--primary-color);
+    font-size: 0.8rem;
+}
+footer .copy a{
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 1s;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
