@@ -149,7 +149,7 @@ section.vantagens{
 
 }
 .vantagens .itens-container .img-item img{
-    max-width: 400px;
+    max-width: 450px;
     height: auto;
     border-radius: 15px;
     box-shadow: 10px 10px 0 var(--primary-color);
@@ -216,3 +216,58 @@ section.contato{
 }
 
 /* Estilo dos serviços */
+section.servicos{
+    padding: 80px 0;
+}
+.servicos .interface{
+    padding-bottom: 15px;
+}
+.servicos .title-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.servicos .title-servicos h3{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.servicos .title-servicos h3 span{
+    font-weight: 700;
+}
+.servicos .title-servicos p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--text-color);
+    text-align: center;
+}
+.servicos .title-servicos p span{
+    display: block;
+}
+.servicos .servicos-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+.servicos .servicos-container .img-servico{
+    padding-right: 15px;
+
+}
+.servicos .servicos-container .img-servico img{
+    max-width: 450px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 var(--primary-color);
+}
+.servicos .servicos-container .txt-servico h4{
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.servicos .servicos-container .txt-servico h4 span{
+    font-weight: 700;
+}
