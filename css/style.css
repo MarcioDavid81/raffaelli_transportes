@@ -312,6 +312,9 @@ footer .interface{
     justify-content: space-between;
     align-items: center;
 }
+footer .left-footer{
+    margin-bottom: 20px;
+}
 footer .left-footer img{
     max-width: 200px;
     height: auto;
