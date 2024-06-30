@@ -137,6 +137,30 @@ section.vantagens{
 .vantagens .interface{
     padding-bottom: 15px;
 }
+.vantagens .title-vantagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.vantagens .title-vantagens h3{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.vantagens .title-vantagens h3 span{
+    font-weight: 700;
+}
+.vantagens .title-vantagens p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--text-color);
+    text-align: justify;
+    text-indent: 5%;
+}
+.vantagens .title-vantagens p span{
+    display: block;
+}
 .vantagens .itens-container{
     display: flex;
     align-items: center;
@@ -167,7 +191,12 @@ section.vantagens{
 /* Estilo do contato */
 section.contato{
     padding: 80px 0;
-    background-color: #fff;
+    background-image: url(../imgs/parallax.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
 }
 .txt-contato, .icons-contato{
     width: 50%;
