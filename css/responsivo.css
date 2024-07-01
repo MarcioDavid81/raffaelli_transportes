@@ -1,0 +1,139 @@
+@media (width <= 900px) {
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+    /* Responsivo da section hero */
+    .hero-site .txt-hero h1{
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+    .hero-site .txt-hero p{
+        font-size: 1.1rem;
+    }
+    .hero-site .txt-hero p span{
+        display: block;
+    }
+    .hero-site .btn-contato button{
+        font-size: 1rem;
+    }
+
+    /* Responsivo da section vantagens */
+    .vantagens .title-vantagens h3{
+        font-size: 2rem;
+    }
+    .vantagens .title-vantagens p{
+        font-size: 1.1rem;
+    }
+    .vantagens .itens-container{
+        flex-direction: column;
+    }
+    .vantagens .itens-container .img-item img{
+        width: 100%;
+    }
+    .vantagens .itens-container .txt-item h3{
+        font-size: 2rem;
+        line-height: 30px;
+    }
+    .vantagens .itens-container .txt-item p{
+        font-size: 1.1rem;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    .vantagens .itens-container .txt-item h3 span{
+        font-weight: 700;
+    }
+    .vantagens .itens-container .item1{
+        order: 1;
+    }
+    .vantagens .itens-container .item2{
+        order: 0;
+    }
+
+    /* Responsivo da section contato */
+    .txt-contato, .icons-contato{
+        width: 100%;
+        display: block;
+
+    }
+    .contato .txt-contato h3{
+        font-size: 2rem;
+    }
+
+    .txt-contato p{
+        font-weight: 300;
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+    }
+    .contato .icons-contato button{
+        width: 100%;
+    }
+
+    /* Responsivo da section serviços */
+    .servicos .title-servicos h3{
+        font-size: 2rem;
+    }
+    .servicos .title-servicos h3 span{
+        font-weight: 700;
+    }
+    .servicos .title-servicos p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .servicos .servicos-container{
+        flex-direction: column;
+    }
+    .servicos .servicos-container .img-servico img{
+        width: 100%;
+    }
+    .servicos .servicos-container .txt-servico h4{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .servicos .servicos-container .txt-servico p{
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    .servicos .servicos-container .item1{
+        order: 1;
+    }
+    .servicos .servicos-container .item2{
+        order: 0;
+    }
+    /* Responsivo do copy */
+    footer .copy{
+        padding: 10px;
+        font-size: 0.7rem;
+    }
+}
+
+@media (width <= 600px) {
+    .hero-site .txt-hero h1{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .hero-site .txt-hero p{
+        font-size: 1rem;
+    }
+    .hero-site .txt-hero p span{
+        display: inline;
+    }
+    .hero-site .btn-contato button{
+        font-size: 0.9rem;
+    }
+
+    /* Responsivo do footer */
+    footer .interface{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .interface .right-footer{
+        margin-bottom: 20px;
+    }
+
+    /* Responsivo do copy */
+    footer .copy{
+        padding: 5px;
+        font-size: 0.5rem;
+    }
+}

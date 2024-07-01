@@ -17,6 +17,7 @@ body{
     max-width: 1280px;
     margin: 0 auto;
     overflow: hidden;
+    padding: 0 4%;
 }
 
 /* Estilo do header */
@@ -206,7 +207,6 @@ section.contato{
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: blur(5px);
 }
 .txt-contato, .icons-contato{
     width: 50%;
