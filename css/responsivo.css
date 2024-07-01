@@ -1,4 +1,8 @@
 @media (width <= 900px) {
+    /* Responsivo do header */
+    header .btn-menu-mob{
+        display: block;
+    }
     header .menu-desktop, header .btn-contato{
         display: none;
     }

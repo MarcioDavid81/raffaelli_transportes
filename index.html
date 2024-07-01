@@ -17,7 +17,7 @@
     <title>Raffaelli Transportes</title>
 </head>
 <body>
-    <header id="header">
+    <header id="header" class="js-menu">
         <div class="interface">
             <section class="logo">
                 <img src="imgs/logo.png" alt="Logo Raffaelli Transportes    ">
@@ -26,9 +26,9 @@
             <section class="menu-desktop">
                 <nav>
                     <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
                     </ul>
                 </nav>
             </section>
@@ -37,10 +37,24 @@
                 <a href="#"><button>Contato</button></a>
             </section>
 
+            <div class="btn-menu-mob" id="btn-menu-mob">
+                <div class="line-menu-mob-1"></div>
+                <div class="line-menu-mob-2"></div>
+            </div>
+            <section class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                    </ul>
+                </nav>
+            </section>
+
         </div>
     </header>
     
-    <section class="hero-site">
+    <section class="hero-site" id="inicio">
         <div class="interface">
             <div class="txt-hero">
                 <h1>Transporte de <span>qualidade para você!</span></h1>
@@ -50,7 +64,7 @@
         </div>
     </section>
 
-    <section class="vantagens">
+    <section class="vantagens" id="sobre">
         <div class="interface">
             <article class="title-vantagens">
                 <h3>Sobre a <span>Raffaelli</span></h3>
@@ -109,7 +123,7 @@
         </div>
     </section>
 
-    <section class="servicos">
+    <section class="servicos" id="servicos">
         <div class="interface">
             <article class="title-servicos">
                 <h3>Nossos <span>Serviços</span></h3>
@@ -169,5 +183,7 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/btn-menu-mobi.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 </html>
