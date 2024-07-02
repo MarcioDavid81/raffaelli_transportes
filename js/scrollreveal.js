@@ -16,9 +16,11 @@ revelar.reveal('.scroll-txt-text', {
 
 revelar.reveal('.scroll-txt-button', {
     duration: 1000,
-    origin: 'left',
-    distance: '50px',
-    delay: 1000
+    origin: 'right',
+    distance: '500px',
+    delay: 1000,
+    scale: 0.1
+    
 });
 
 revelar.reveal('.scroll-txt-ri-img', {
@@ -33,4 +35,9 @@ revelar.reveal('.scroll-txt-le-img', {
     origin: 'left',
     distance: '50px',
     rotate: { x: 90, y: 90, z: 90 }
+});
+
+revelar.reveal('.scroll-footer', {
+    duration: 2000,
+    opacity: 0,
 });

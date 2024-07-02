@@ -461,6 +461,6 @@ footer .copy a{
 }
 
 /* Estilo do scroll */
-.scroll-txt-title, .scroll-txt-text, .scroll-txt-button, .scroll-txt-ri-img, .scroll-txt-le-img{
+.scroll-txt-title, .scroll-txt-text, .scroll-txt-button, .scroll-txt-ri-img, .scroll-txt-le-img, .scroll-footer{
     visibility: hidden;
 }
