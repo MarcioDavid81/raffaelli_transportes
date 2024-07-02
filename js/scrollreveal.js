@@ -25,10 +25,12 @@ revelar.reveal('.scroll-txt-ri-img', {
     duration: 1000,
     origin: 'right',
     distance: '50px',
+    rotate: { x: 90, y: 90, z: 90 }
 });
 
 revelar.reveal('.scroll-txt-le-img', {
     duration: 1000,
     origin: 'left',
     distance: '50px',
+    rotate: { x: 90, y: 90, z: 90 }
 });
