@@ -22,7 +22,6 @@
     width: 50%;
     min-width: 350px;
     height: 90%;
-    overflow: hidden;
 }
 
 @keyframes modal{
