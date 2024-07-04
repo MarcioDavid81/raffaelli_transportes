@@ -16,6 +16,9 @@
         border-radius: 0 0 50px 0;
     }
     /* Responsivo da section hero */
+    section.hero-site{
+        background-attachment: scroll;
+    }
     .hero-site .txt-hero h1{
         font-size: 2.5rem;
         line-height: 50px;
@@ -63,6 +66,9 @@
     }
 
     /* Responsivo da section contato */
+    section.contato{
+        background-attachment: scroll;
+    }
     .txt-contato, .icons-contato{
         width: 100%;
         display: block;
